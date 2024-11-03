@@ -8,3 +8,4 @@
 提取 fstab.qcom
 提取 displayconfig
 提取 wallpaper
+提取 NQNfiNci
