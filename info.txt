@@ -6,3 +6,5 @@
 提取 zsmalloc.ko
 提取 Overlay
 提取 fstab.qcom
+提取 displayconfig
+提取 wallpaper

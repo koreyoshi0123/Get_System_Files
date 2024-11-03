@@ -72,6 +72,12 @@ extract_files() {
   # get_files_config
   # get_prop_files
 
+  ### displayconfig
+  get_system_files "/product/etc/displayconfig"
+
+  ### displayconfig
+  get_system_files "/product/media"
+
   ### device_features
   get_system_files "/product/etc/device_features"
 
