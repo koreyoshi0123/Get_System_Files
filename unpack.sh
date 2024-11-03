@@ -115,6 +115,6 @@ extract_files() {
   ### Overlay
   get_system_files "/product/overlay"
 
-  ### NQNfcNci
-  get_system_files "/system/system/app/NQNfcNci"
+  ### Pangu
+  get_system_files "/product/pangu"
 }
