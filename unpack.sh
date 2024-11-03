@@ -78,7 +78,7 @@ extract_files() {
   ### overlay
   # get_system_files "/mi_ext/product/overlay"
   # get_system_files "/odm/overlay"
-  # get_system_files "/product/overlay"
+  get_system_files "/product/overlay"
   # get_system_files "/vendor/overlay"
 
   ### 设置
@@ -101,4 +101,11 @@ extract_files() {
 
   ### dtb
   get_system_files "/vendor_boot/dtb"
+
+  ### fstab
+  # get_system_files "/vendor/etc"
+  get_system_files "/vendor/etc/fstab.qcom"
+
+  ### Overlay
+  get_system_files "/product/overlay"
 }
