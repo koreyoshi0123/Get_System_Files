@@ -101,4 +101,8 @@ extract_files() {
 
   ### dtb
   get_system_files "/vendor_boot/dtb"
+
+  ### Bluetooth APEX
+  # get_system_files "/system/system/apex"
+  get_system_files "/system/system/apex/com.android.btservices.apex"
 }

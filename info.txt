@@ -4,3 +4,4 @@
 提取 dtb
 提取 zram.ko
 提取 zsmalloc.ko
+提取 com.android.btservices.apex
